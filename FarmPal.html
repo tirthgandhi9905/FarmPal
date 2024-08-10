@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="farmPal.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FarmPal</title>
 </head>
+
 <body>
     <div class="homepage"></div>
-    
-    <div class="content">
-       
-            <div class="searchbar">
-                
-                <input type="number" class="longitude" placeholder="Longitude">
-                
-            <input type="number" class="latitude" placeholder="Latitude">
-           
-                       </div>
 
-       
-   </div>
+    <div class="content">
+        <div class="msg1">
+            <a href="https://www.google.co.in/maps" rel="noopener noreferrer" target="_blank">Get your Location from
+                here!</a>
+        </div>
+        <div class="bar">
+            <div class="searchbar">
+                <input type="text" class="longitude" placeholder="Longitude">
+                <input type="text" class="latitude" placeholder="Latitude">
+
+            </div>
+        </div>
+        <div class="display">
+            <div class="beforemsg">
+                <p id="beforemsg">Please Enter Your location to get the weather and soil information!</p>
+                <div class="weather">weather</div>
+                <div class="soilinfo">SoilInfo</div>
+            </div>
+        </div>
+
+    </div>
     <script src="FarmPal.js"></script>
 </body>
+
 </html>
