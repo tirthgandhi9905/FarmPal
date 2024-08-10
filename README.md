@@ -1,1 +1,1 @@
-# FarmPal-Your-patner-in-modern-farming
+# FarmPal-Your patner in modern farming .
